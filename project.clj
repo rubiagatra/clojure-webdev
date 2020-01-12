@@ -7,6 +7,11 @@
   :dependencies [[org.clojure/clojure "1.10.0"]
                  [compojure "1.6.1"]
                  [ring "1.8.0"]]
+
+  :min-lein-version "2.0.0"
+
+  :uberjar-name "webdev.jar"
+
   :repl-options {:init-ns webdev.core}
   :main webdev.core
   
